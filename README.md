@@ -46,8 +46,8 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/BlackfireZZZ/AlphaBankHack
+   cd AlphaBankHack
 2. Установите зависимости:
    ```bash 
    pip install -r requirements.txt```
