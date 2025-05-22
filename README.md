@@ -19,6 +19,7 @@
 │ ├── features_description.xlsx
 │ └── cluster_weights.xlsx
 │ multiply_features.ipynb
+| prediction_start_cluster.ipynb
 │ 02_feature_engineering.ipynb
 │ 03_model_training.ipynb
 ├── models/ # Сохранённые модели
