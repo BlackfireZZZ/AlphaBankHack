@@ -18,11 +18,11 @@
 │ ├── sample_submission.csv
 │ ├── features_description.xlsx
 │ └── cluster_weights.xlsx
-│ 01_data_overview.ipynb
+│ multiply_features.ipynb
 │ 02_feature_engineering.ipynb
 │ 03_model_training.ipynb
 ├── models/ # Сохранённые модели
-│ ├── best_model.pkl
+│ ├── catboost_for_start_cluster_model.cbm
 ├── submissions/ # Финальные сабмиты
 │ ├── submission.csv
 ├── task_description.pdf # Задание от организаторов
@@ -36,7 +36,6 @@
 
 | Файл                           | Назначение                                                                                                      |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| `01_data_overview.ipynb`       | Предварительный анализ данных, визуализация, выявление пропусков                                                |
 | `02_feature_engineering.ipynb` | Создание новых признаков, кодирование категориальных переменных                                                 |
 | `multiply_features.ipynb`      | Получение новых фичей путем перемножения важных признаков "всех со всеми". Отбор новых признаков с помощью feature importance |
 | `prediction_start_cluster.ipynb` | Обучение модели для предсказания стартового кластера |
